@@ -1,5 +1,6 @@
 {
   "imports": {
+    "@hono/trpc-server": "npm:@hono/trpc-server@^0.3.2",
     "hono": "jsr:@hono/hono@^4.6.3"
   },
   "tasks": {
