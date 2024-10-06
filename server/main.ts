@@ -2,7 +2,8 @@ import { Hono } from 'hono'
 
 const app = new Hono()
 
-app.get('/', (c) => {
+// deno-lint-ignore no-explicit-any
+app.get('/', (c: any) => {
   return c.text('Hello Hono!')
 })
 
